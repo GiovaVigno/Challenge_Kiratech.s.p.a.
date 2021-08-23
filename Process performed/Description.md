@@ -48,3 +48,19 @@ After a few simple steps, I had to fill up the boxs.Then saved and tested.
 ![Filled up Url box](screenshots/13.Url_box.png)
 ![Save and Test](screenshots/14.Save&Test.png)
 
+## Forth, explore metrics 
+I uses Explore to create speficif queries to understand the metrics exposed. By the way in the side bar,I clicked the **Explore** bottom and in the **Query editor** wrote close the **Metrics** bottom, and change the time picker. 
+
+![Explore the Query (tns)](screenshots/15.ExploreQuery(tns).png)
+
+Hence, I Added the **rate** function to the query to visualize the rate of requests per second, and I saw the legend below the graph.
+
+![Rate and Legend of the PromQL](screenshots/16.LegendPromQL.png)
+
+Moreover I Added the **sum** function to the query to group time series by route,
+
+![Sum to group time series](screenshots/17.sum_group.png)
+
+I went back to the http://localhost:8081/ and generated some traffic.
+
+<img width="875" alt="18 Last5m" src="https://user-images.githubusercontent.com/77804552/130475984-d883ee38-9bfd-48f3-9a8d-cfabf6f97725.png">
