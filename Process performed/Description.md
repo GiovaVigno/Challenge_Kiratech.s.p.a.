@@ -28,6 +28,8 @@ I added a like and voted it.
 ![Added link and voted](screenshot/8.Voted.png)
 
 ## Second, Log in to Granafa 
-I browsed to http://localhost:3000/ 
+I checked into docker and browsed to http://localhost:3000/ 
 
-![Browse to localhost3000](screenshot/9.Browse to localhost3000.png)
+![Browse to localhost3000](screenshot/9.Host3000.png)
+
+![Login to Grafana](screenshot/10.LoginGrafana.png)
