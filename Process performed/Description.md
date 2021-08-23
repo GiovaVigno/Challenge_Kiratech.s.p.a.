@@ -12,6 +12,20 @@ then started the sample application.
 
 ![Start_sample_application2](screenshot/3.Start_sample_application2.png)
 
-I made sure the docker is working on,
+I made sure the docker was working,
 
 ![Make sure the docker is working](screenshot/Docker.jpg)
+
+I Ensured all services are up-and-running also the application (desktop).
+
+![Docker_desktop](screenshot/5.Docker_desktop.png)
+
+Lastly tried to the sample application on http://localhost:8081/,
+
+![Try.localhost_8081](screenshot/6.Try.localhost_8081.png)
+
+I added a like and voted it.
+
+![Grafana News_add link](screenshot/7.Grafana News_add link.png)
+
+![Added link and voted](screenshot/8.Added link and voted.png)
