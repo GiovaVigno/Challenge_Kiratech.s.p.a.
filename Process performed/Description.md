@@ -14,4 +14,4 @@ then started the sample application.
 
 I made sure the docker is working on,
 
-![Make sure the docker is working](screenshot/4. Make sure is working docker.png)
+![Make sure the docker is working](screenshot/4.Docker is working.png)
