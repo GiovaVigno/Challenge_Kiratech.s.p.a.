@@ -4,32 +4,47 @@ I have been doing this challenge following the instructions provided from: https
 ## First, setup
 I had to setup a sample application, so I started with clone github.com/grafana/tutorial-environment repository,
 
-![Setup](screenshot/1.Setup.png)
+![Setup](screenshots/1.Setup.png)
 
 then started the sample application.
 
-![Start a sample app](screenshot/2.Start_sample_app.png)
+![Start a sample app](screenshots/2.Start_sample_app.png)
 
-![Start_sample_application2](screenshot/3.Start_sample_application2.png)
+![Start_sample_application2](screenshots/3.Start_sample_application2.png)
 
 I made sure the docker was working,
 
-![Make sure the docker is working](screenshot/Docker.jpg)
+![Make sure the docker is working](screenshots/Docker.jpg)
 
 I Ensured all services are up-and-running also the application (desktop).
 
-![Docker_desktop](screenshot/5.Docker_desktop.png)
+![Docker_desktop](screenshots/5.Docker_desktop.png)
 
 Lastly tried to the sample application on http://localhost:8081/,
 
-![Try.localhost_8081](screenshot/6.Try.localhost_8081.png)
+![Try.localhost_8081](screenshots/6.Try.localhost_8081.png)
 I added a like and voted it.
-![Grafana News_add link](screenshot/7.Add_link.png)
-![Added link and voted](screenshot/8.Voted.png)
+![Grafana News_add link](screenshots/7.Add_link.png)
+![Added link and voted](screenshots/8.Voted.png)
 
 ## Second, Log in to Granafa 
-I checked into docker and browsed to http://localhost:3000/ 
+I checked into docker and browsed to http://localhost:3000/,
 
-![Browse to localhost3000](screenshot/9.Host3000.png)
+![Browse to localhost3000](screenshots/9.Host3000.png)
+![Login to Grafana](screenshots/10.LoginGrafana.png)
 
-![Login to Grafana](screenshot/10.LoginGrafana.png)
+consequently I entered inside,
+
+![Welcome to Grafana dashboard](screenshots/11.WelcomeGrafanadashboard.png)
+
+## Third, metrics and data source
+
+I visualized the metrics from Prometheus , however I needed to add it as a data source (into the corfiguration) in Grafana.
+
+![Add Prometheus in the dashboard](screenshots/12.Prometheus.png)
+
+After a few simple steps, I had to fill up the boxs.Then saved and tested.
+
+![Filled up Url box](screenshots/13.Url_box.png)
+![Save and Test](screenshots/14.Save&Test.png)
+
