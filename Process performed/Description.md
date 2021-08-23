@@ -26,6 +26,6 @@ Lastly tried to the sample application on http://localhost:8081/,
 
 I added a like and voted it.
 
-![Grafana News_add link](screenshot/7.Grafana News_add link.png)
+![Grafana News_add link](screenshot/7.Add link.png)
 
-![Added link and voted](screenshot/8.Added link and voted.png)
+![Added link and voted](screenshot/8.Voted.png)
