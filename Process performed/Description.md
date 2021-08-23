@@ -10,8 +10,8 @@ then started the sample application.
 
 ![Start a sample app](screenshot/2.Start_sample_app.png)
 
-![3.Start_sample_application2](screenshot/3.Start_sample_application2.png)
+![Start_sample_application2](screenshot/3.Start_sample_application2.png)
 
 I made sure the docker is working on,
 
-![4.Make sure the docker is working](screenshot/4.Make _sure _the _docker _is_working.png)
+![Make sure the docker is working](screenshot/4. Make sure is working docker.png)
