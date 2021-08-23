@@ -1,7 +1,7 @@
 # To beginning with 
 I have been doing this challenge following the instructions provided from: https://grafana.com/tutorials/grafana-fundamentals.
 
-# First step
+## First step
 I had to setup a sample application, so I started with clone github.com/grafana/tutorial-environment repository,
 
 ![Setup](screenshot/1.Setup.png)
@@ -14,4 +14,4 @@ then started the sample application.
 
 I made sure the docker is working on,
 
-![4.Make sure the docker is working](screenshot/4.Make sure the docker is working.png)
+![4.Make sure the docker is working](screenshot/4.Make _sure _the _docker _is_working.png)
