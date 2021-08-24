@@ -28,7 +28,7 @@ I added a like and voted it.
 ![Grafana News_add link](screenshots/7.Add_link.png)
 ![Added link and voted](screenshots/8.Voted.png)
 
-## Second, Log in to Granafa
+## Second, Log in to Grafana
 I checked into docker and browsed to *http://localhost:3000*,
 
 ![Browse to localhost3000](screenshots/9.Host3000.png)
@@ -40,7 +40,7 @@ consequently I entered inside,
 
 ## Third, metrics and data source 
 
-I visualized the metrics from Prometheus , however I needed to add it as a data source (into the corfiguration) in Grafana.
+I visualized the metrics from Prometheus, however I needed to add it as a data source (into the corfiguration) in Grafana.
 
 ![Add Prometheus in the dashboard](screenshots/12.Prometheus.png)
 
@@ -108,7 +108,7 @@ afterwards I filled up the **Query editor** with the previous query,
 
 <img width="948" alt="Enter the previous Query" src="https://user-images.githubusercontent.com/77804552/130628837-ef5364d5-541a-4f95-8f92-f4c8eb779d05.png">
 
-I renamed the Legend, the label of the graph and saved, in oder to have my first panel.
+I renamed the Legend, the label of the graph and saved, in order to have my first panel.
 
 <img width="956" alt="Setting the Dashboard" src="https://user-images.githubusercontent.com/77804552/130629046-da289edf-365f-4262-bf08-2273033a1fbc.png">
 
