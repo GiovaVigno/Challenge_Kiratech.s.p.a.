@@ -50,7 +50,7 @@ After a few simple steps, I had to fill up the boxs.Then saved and tested.
 ![Save and Test](screenshots/14.Save&Test.png)
 
 ## Forth, explore metrics 
-I uses Explore to create speficif queries to understand the metrics exposed. By the way in the side bar,I clicked the **Explore** bottom and in the **Query editor** wrote close the **Metrics** bottom, and change the time picker. 
+I uses Explore to create speficif queries to understand the metrics exposed. Anyway in the side bar,I clicked the **Explore** bottom, in the **Query editor** wrote (close the **Metrics** bottom), and changed the _time picker_. 
 
 ![Explore the Query (tns)](screenshots/15.ExploreQuery(tns).png)
 
