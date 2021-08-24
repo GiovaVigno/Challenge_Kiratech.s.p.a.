@@ -138,7 +138,7 @@ Going back, the log lines returned a new type of annotation (this help you to co
 
 <img width="555" alt="Check querying annotations" src="https://user-images.githubusercontent.com/77804552/130636533-bfff14f4-4b8d-4cee-9128-f7e4c8e89565.png">
 
-## Set up an alert
+## Nineth, Set up an alert
 
 Alerts is made in two parts:
 1. _Notification channel_ - How the alert is delivered;
@@ -185,8 +185,15 @@ After saving the dashboard, I entered a note to tell me what I did.  As a result
 
 <img width="938" alt="46 Checkrequestbin" src="https://user-images.githubusercontent.com/77804552/130645521-6f5424a2-dd62-4c5e-8e44-53e0c6bc8f35.png">
 
+### The last but not less important; pause an alert
 
+Once I got an alert, I needed to pause it (to avoid continuous repetitions). For that reason I clicked **Alert Rules**,
 
+<img width="847" alt="Pause an alert" src="https://user-images.githubusercontent.com/77804552/130660151-e59ebcaa-2767-4d15-8f81-da615033ea28.png">
+
+then I found my previous alert in the list, and clicked **Pause**.
+
+<img width="800" alt="Pause icon" src="https://user-images.githubusercontent.com/77804552/130660357-f83ee7c5-e6b1-4269-b327-76218230478e.png">
 
 
 
