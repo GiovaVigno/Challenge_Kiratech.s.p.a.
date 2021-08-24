@@ -136,13 +136,57 @@ then I setted it up (with **Loki**) and entered the query, in the end clicked **
 
 Going back, the log lines returned a new type of annotation (this help you to correlate information from **Prometheus** and **Loki**).
 
-<img width="555" alt="34 Checkquerying annotations" src="https://user-images.githubusercontent.com/77804552/130636533-bfff14f4-4b8d-4cee-9128-f7e4c8e89565.png">
+<img width="555" alt="Check querying annotations" src="https://user-images.githubusercontent.com/77804552/130636533-bfff14f4-4b8d-4cee-9128-f7e4c8e89565.png">
 
 ## Set up an alert
 
 Alerts is made in two parts:
-1. _Notification channel_ - How the alert is delivered
+1. _Notification channel_ - How the alert is delivered;
 1. _Alert rules_ - When the alert is triggered.
+
+### 1. Configure a notification channel
+I used **web hooks** to send alerts, especially to test them. Thus I browsed to *https://requestbin.com/*,
+
+![Configure a channel ](https://user-images.githubusercontent.com/77804552/130639587-335fb94f-c930-4669-9fba-1535390957ea.jpg)
+
+I created a Request Bin (**public bin**) and copied my **endpoint** URL.
+
+<img width="931" alt="36 Myendpoint" src="https://user-images.githubusercontent.com/77804552/130640101-0c5f53dd-3f1b-458d-b8c0-9e9719fb4908.png">
+
+Subsequently, I configured a notification channel for web hooks to send notification to my Request Bin.
+
+![Notification channels set](https://user-images.githubusercontent.com/77804552/130640675-7e57b07a-06a7-40cd-81c9-c741c49c0a92.jpg)
+
+<img width="854" alt="Click and Send to Test" src="https://user-images.githubusercontent.com/77804552/130641033-27393745-dca2-4787-966a-e7e8f8929908.png">
+
+After that I browsed back to the request bin, and checked **POST/** entry, so that I saved.
+
+<img width="953" alt="Check request bin" src="https://user-images.githubusercontent.com/77804552/130641837-d0a0fe37-2ffb-47ee-8ddf-034572493cfc.png">
+
+### 2. Configure an alert rule
+
+In addition, I had to set up an alert rule, so I went to **Dashboard** (Manage) and I took my previous panel (edit into it),
+
+<img width="919" alt="Configure an alert rule" src="https://user-images.githubusercontent.com/77804552/130642277-a6ab91d2-8f55-433b-a1db-8185fc36cc14.png">
+
+I cliked **Alert**, **Create Alert**, I put the parameters (like Evaluate every **5s**; **0m**; **conditions**),
+
+<img width="869" alt="Configure an alert rule 2" src="https://user-images.githubusercontent.com/77804552/130642915-a57f27bb-a6f6-4f74-bd55-d42600a95988.png">
+
+<img width="927" alt="Configure an alert rule 3" src="https://user-images.githubusercontent.com/77804552/130643254-c1b8e7bb-ae99-4722-964e-4aec190d8c85.png">
+
+then I put where I wanted to receive the notifications.
+
+<img width="739" alt="Insert where I want to sent" src="https://user-images.githubusercontent.com/77804552/130644261-08b724fa-a909-433e-81d5-ef6c1eef51a9.png">
+
+After saving the dashboard, I entered a note to tell me what I did.  As a result (since I had an alert rule), I tried to generate some traffic to verify what was happened in the usually application (**http://localhost:8081/**), so that I went back to see the dashboard and the Request Bin.
+
+<img width="620" alt="Check the alert" src="https://user-images.githubusercontent.com/77804552/130645250-97649b91-b71d-4111-b664-2ee3b6890871.png">
+
+<img width="938" alt="46 Checkrequestbin" src="https://user-images.githubusercontent.com/77804552/130645521-6f5424a2-dd62-4c5e-8e44-53e0c6bc8f35.png">
+
+
+
 
 
 
