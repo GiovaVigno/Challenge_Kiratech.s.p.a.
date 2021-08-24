@@ -86,5 +86,25 @@ and it displayed all logs within the log file of the sample application.
 
 <img width="935" alt="Grafana displays all logs" src="https://user-images.githubusercontent.com/77804552/130479253-e16efa1f-0f41-49dd-8b06-3fa13d7f7c69.png">
 
+I clicked and dragged the bars to filter the logs by specific occurrences (like **error**).
+
+![Filter the graph to explore](https://user-images.githubusercontent.com/77804552/130621718-ecab64e1-8b84-4cd1-9848-598041aad1a2.jpg)
+
+For that reason, I generated an error and analyzed it. So I opened the application (*http://localhost:8081* again), and posted a new link **without a URL** (as in beginning but without URL),besides I went back and entered the query,
+
+<img width="755" alt="25 Generate an error andCheck " src="https://user-images.githubusercontent.com/77804552/130623637-fce9171b-cbe2-461a-8b5c-26b2d2867e7c.png">
+
+then I clicked on the log line for more information.
+
+<img width="895" alt="Generate an error and Check 2" src="https://user-images.githubusercontent.com/77804552/130623991-76e87591-7b41-4e25-b9fa-cb18d70c94b2.png">
+
 ## Seventh, Build a dashboard
+To build a dashboard which heps me with intuitive queries and metrics, I had to set the dashboard (in the **create** icon),
+
+<img width="793" alt="Build a dashboard" src="https://user-images.githubusercontent.com/77804552/130625679-ab46a3d6-0b32-4494-bb2c-b8fabac2e127.png">
+
+afterwards I filled up the **Query editor** with the previous query.
+
+<img width="956" alt=" for Setting a Dashboard" src="https://user-images.githubusercontent.com/77804552/130626125-588d8fc1-7b51-4e01-9d39-69ede8cd4fd9.png">
+
 
