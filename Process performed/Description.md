@@ -16,11 +16,11 @@ then started the sample application.
 I made sure the docker was working,
 
 <img width="738" alt="4 Docker" src="https://user-images.githubusercontent.com/77804552/130590255-089ac0de-df1e-4dad-98a6-9220b15fd089.png">
-I Ensured all services are up-and-running also the application (desktop).
+I ensured all services are up-and-running also the application (desktop).
 
 ![Docker_desktop](screenshots/5.Docker_desktop.png)
 
-Lastly tried to the sample application on *http://localhost:8081*,
+lastly I tried to the sample application on *http://localhost:8081*,
 
 ![Try.localhost_8081](screenshots/6.Try.localhost_8081.png)
 I added a like and voted it.
@@ -50,11 +50,11 @@ After a few simple steps, I had to fill up the boxs.Then saved and tested.
 ![Save and Test](screenshots/14.Save&Test.png)
 
 ## Forth, explore metrics 
-I uses Explore to create speficif queries to understand the metrics exposed. Anyway in the side bar,I clicked the **Explore** bottom, in the **Query editor** wrote (close the **Metrics** bottom), and changed the _time picker_. 
+I uses Explore to create specific queries to understand the metrics exposed. Anyway in the side bar, I clicked the **Explore** bottom, in the **Query editor** wrote (close the **Metrics** bottom), and changed the _time picker_. 
 
 ![Explore the Query (tns)](screenshots/15.ExploreQuery(tns).png)
 
-Hence, I Added the **rate** function to the query to visualize the rate of requests per second, and I saw the legend below the graph.
+Hence, I added the **rate** function to the query to visualize the rate of requests per second, and I saw the legend below the graph.
 
 ![Rate and Legend of the PromQL](screenshots/16.LegendPromQL.png)
 
@@ -62,11 +62,11 @@ Moreover I Added the **sum** function to the query to group time series by route
 
 ![Sum to group time series](screenshots/17.sum_group.png)
 
-I went back to the *http://localhost:8081/* and generated some traffic, and I checked what happened in the last 5 minutes.
+I went back to the *http://localhost:8081/* then generated some traffic, and I checked what happened in the last 5 minutes.
 
 <img width="875" alt="Click the time picker, and select Last 5 minutes." src="https://user-images.githubusercontent.com/77804552/130475984-d883ee38-9bfd-48f3-9a8d-cfabf6f97725.png">
 
-After that I tried to change the **group by** with another label like status_code and istance .
+After that, I tried to change the **group by** with another label like status_code and istance .
 
 <img width="849" alt="Try other labels" src="https://user-images.githubusercontent.com/77804552/130477087-8ab0915f-6eb7-4410-99b3-0bfa6c851782.png">
 <img width="889" alt="Try other labels again" src="https://user-images.githubusercontent.com/77804552/130477099-4a7652e6-e649-4a00-94be-e7bd76920f2b.png">
@@ -77,7 +77,7 @@ I needed to add data source **Loki** to Grafana. Always in the configuration lik
 
 <img width="884" alt="21 Logging(Loki)" src="https://user-images.githubusercontent.com/77804552/130477878-df725636-b65f-4f79-bb20-95205689d2c4.png">
 
-<h5> Sixth, Explore logs </h5>
+## Sixth, Explore logs
 
 In order to explore the logs, I had to use **Loki** date source. Thus In the **Query editor**, I entered,
 
@@ -91,7 +91,7 @@ I clicked and dragged the bars to filter the logs by specific occurrences (like 
 
 ![Filter the graph to explore](https://user-images.githubusercontent.com/77804552/130621718-ecab64e1-8b84-4cd1-9848-598041aad1a2.jpg)
 
-For that reason, I generated an error and analyzed it. So I opened the application (*http://localhost:8081* again), and posted a new link **without a URL** (as in beginning but without URL),besides I went back and entered the query,
+For that reason, I generated an error and analyzed it. So I opened the application (*http://localhost:8081* again), and posted a new link **without a URL** (as in beginning but without URL), besides I went back and entered the query,
 
 <img width="755" alt="25 Generate an error andCheck " src="https://user-images.githubusercontent.com/77804552/130623637-fce9171b-cbe2-461a-8b5c-26b2d2867e7c.png">
 
@@ -100,7 +100,7 @@ then I clicked on the log line for more information.
 <img width="895" alt="Generate an error and Check 2" src="https://user-images.githubusercontent.com/77804552/130623991-76e87591-7b41-4e25-b9fa-cb18d70c94b2.png">
 
 ## Seventh, Build a dashboard
-To build a dashboard which heps me with intuitive queries and metrics, I had to set the dashboard (in the **create** icon),
+To build a dashboard which helps me with intuitive queries and metrics, I had to set the dashboard (in the **create** icon),
 
 <img width="793" alt="To Build a dashboard" src="https://user-images.githubusercontent.com/77804552/130625679-ab46a3d6-0b32-4494-bb2c-b8fabac2e127.png">
 
@@ -126,7 +126,7 @@ However an interesting things is I was able to annotate a time interval (**regio
 <img width="806" alt="the Region annotations" src="https://user-images.githubusercontent.com/77804552/130634017-4ce2988d-6d44-45b4-b99f-3fd335bee4f9.png">
 
 Not only, for regularly occurring events this has to do automatically, so I had to use a querying annotations from data sources.
-I make an annotation using the **loki**, I clicked **Dashboard settings** icon,
+I made an annotation using the **loki**, I clicked **Dashboard settings** icon,
 
 <img width="940" alt="Annotation with Loki" src="https://user-images.githubusercontent.com/77804552/130635538-559e8cde-db93-4edf-b63d-bba33ddba4aa.png">
 
@@ -179,13 +179,13 @@ then I put where I wanted to receive the notifications.
 
 <img width="739" alt="Insert where I want to sent" src="https://user-images.githubusercontent.com/77804552/130644261-08b724fa-a909-433e-81d5-ef6c1eef51a9.png">
 
-After saving the dashboard, I entered a note to tell me what I did.  As a result (since I had an alert rule), I tried to generate some traffic to verify what was happening in the usually application (**http://localhost:8081/**), therefore I went back to check the dashboard and the Request Bin, specially if it was working.
+After saving the dashboard, I entered a note to tell me what I did.  As a result (since I had an alert rule), I tried to generate some traffic to verify what was happening in the usually application (**http://localhost:8081/**), therefore I went back to check the dashboard and the Request Bin, particuarly if it was working.
 
 <img width="620" alt="Check the alert" src="https://user-images.githubusercontent.com/77804552/130645250-97649b91-b71d-4111-b664-2ee3b6890871.png">
 
 <img width="938" alt="46 Checkrequestbin" src="https://user-images.githubusercontent.com/77804552/130645521-6f5424a2-dd62-4c5e-8e44-53e0c6bc8f35.png">
 
-### The last but not less important; pause an alert
+### The last but not the least; pause an alert
 
 Once I got an alert, I needed to pause it (to avoid continuous repetitions). For that reason I clicked **Alert Rules**,
 
