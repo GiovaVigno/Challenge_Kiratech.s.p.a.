@@ -121,7 +121,7 @@ and in description I wrote and then saved.
 
 <img width="769" alt=" Annotation done" src="https://user-images.githubusercontent.com/77804552/130633345-d3d828cf-478d-473c-9796-cb3d36093fe3.png">
 
-However an interesting things is I was able to annotate a time interval (**region annotations**), by pressing Ctrl, then click and drag across the graph.
+However an interesting things is I was able to annotate a time interval (**region annotations**), by pressing *Ctrl*, then click and drag across the graph.
 
 <img width="806" alt="the Region annotations" src="https://user-images.githubusercontent.com/77804552/130634017-4ce2988d-6d44-45b4-b99f-3fd335bee4f9.png">
 
