@@ -179,7 +179,7 @@ then I put where I wanted to receive the notifications.
 
 <img width="739" alt="Insert where I want to sent" src="https://user-images.githubusercontent.com/77804552/130644261-08b724fa-a909-433e-81d5-ef6c1eef51a9.png">
 
-After saving the dashboard, I entered a note to tell me what I did.  As a result (since I had an alert rule), I tried to generate some traffic to verify what was happened in the usually application (**http://localhost:8081/**), so that I went back to see the dashboard and the Request Bin.
+After saving the dashboard, I entered a note to tell me what I did.  As a result (since I had an alert rule), I tried to generate some traffic to verify what was happening in the usually application (**http://localhost:8081/**), therefore I went back to check the dashboard and the Request Bin, specially if it was working.
 
 <img width="620" alt="Check the alert" src="https://user-images.githubusercontent.com/77804552/130645250-97649b91-b71d-4111-b664-2ee3b6890871.png">
 
