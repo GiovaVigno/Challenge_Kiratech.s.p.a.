@@ -1,7 +1,7 @@
 # Challenge Grafana fundamentals 
 I have been doing this challenge following the instructions provided from: *https://grafana.com/tutorials/grafana-fundamentals*.
 
-<h1> First, setup </h1>
+## First, setup
   
 I had to setup a sample application, so I started with clone *github.com/grafana/tutorial-environment* repository,
 
@@ -27,7 +27,7 @@ I added a like and voted it.
 ![Grafana News_add link](screenshots/7.Add_link.png)
 ![Added link and voted](screenshots/8.Voted.png)
 
-<h2> Second, Log in to Granafa </h2>
+## Second, Log in to Granafa
 I checked into docker and browsed to *http://localhost:3000*,
 
 ![Browse to localhost3000](screenshots/9.Host3000.png)
@@ -37,7 +37,7 @@ consequently I entered inside,
 
 ![Welcome to Grafana dashboard](screenshots/11.WelcomeGrafanadashboard.png)
 
-<h3> Third, metrics and data source </h3>
+## Third, metrics and data source 
 
 I visualized the metrics from Prometheus , however I needed to add it as a data source (into the corfiguration) in Grafana.
 
@@ -48,7 +48,7 @@ After a few simple steps, I had to fill up the boxs.Then saved and tested.
 ![Filled up Url box](screenshots/13.Url_box.png)
 ![Save and Test](screenshots/14.Save&Test.png)
 
-<h4> Forth, explore metrics </h4>
+## Forth, explore metrics 
 I uses Explore to create speficif queries to understand the metrics exposed. By the way in the side bar,I clicked the **Explore** bottom and in the **Query editor** wrote close the **Metrics** bottom, and change the time picker. 
 
 ![Explore the Query (tns)](screenshots/15.ExploreQuery(tns).png)
@@ -70,13 +70,13 @@ After that I tried to change the **group by** with another label like status_cod
 <img width="849" alt="Try other labels" src="https://user-images.githubusercontent.com/77804552/130477087-8ab0915f-6eb7-4410-99b3-0bfa6c851782.png">
 <img width="889" alt="Try other labels again" src="https://user-images.githubusercontent.com/77804552/130477099-4a7652e6-e649-4a00-94be-e7bd76920f2b.png">
 
-<h5> Fifth, logging data source </h5>
+## Fifth, logging data source 
 
 I needed to add data source **Loki** to Grafana. Always in the configuration like earlier, but into the url box I filled up with *http://loki:3100/*.
 
 <img width="884" alt="21 Logging(Loki)" src="https://user-images.githubusercontent.com/77804552/130477878-df725636-b65f-4f79-bb20-95205689d2c4.png">
 
-<h6> Sixth, Explore logs </h6>
+<h5> Sixth, Explore logs </h5>
 
 In order to explore the logs, I had to use **Loki** date source. Thus In the **Query editor**, I entered,
 
@@ -84,7 +84,7 @@ In order to explore the logs, I had to use **Loki** date source. Thus In the **Q
 
 and it displayed all logs within the log file of the sample application.
 
-<img width="935" alt="23 Grafanadisplayalllogs" src="https://user-images.githubusercontent.com/77804552/130479253-e16efa1f-0f41-49dd-8b06-3fa13d7f7c69.png">
+<img width="935" alt="Grafana displays all logs" src="https://user-images.githubusercontent.com/77804552/130479253-e16efa1f-0f41-49dd-8b06-3fa13d7f7c69.png">
 
-
+## Seventh, Build a dashboard
 
