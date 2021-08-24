@@ -101,10 +101,15 @@ then I clicked on the log line for more information.
 ## Seventh, Build a dashboard
 To build a dashboard which heps me with intuitive queries and metrics, I had to set the dashboard (in the **create** icon),
 
-<img width="793" alt="Build a dashboard" src="https://user-images.githubusercontent.com/77804552/130625679-ab46a3d6-0b32-4494-bb2c-b8fabac2e127.png">
+<img width="793" alt="To Build a dashboard" src="https://user-images.githubusercontent.com/77804552/130625679-ab46a3d6-0b32-4494-bb2c-b8fabac2e127.png">
 
-afterwards I filled up the **Query editor** with the previous query.
+afterwards I filled up the **Query editor** with the previous query,
 
-<img width="956" alt=" for Setting a Dashboard" src="https://user-images.githubusercontent.com/77804552/130626125-588d8fc1-7b51-4e01-9d39-69ede8cd4fd9.png">
+<img width="948" alt="Enter the previous Query" src="https://user-images.githubusercontent.com/77804552/130628837-ef5364d5-541a-4f95-8f92-f4c8eb779d05.png">
+
+I renamed the Legend, the label of the graph and saved, in oder to have my first panel.
+
+<img width="956" alt="Setting the Dashboard" src="https://user-images.githubusercontent.com/77804552/130629046-da289edf-365f-4262-bf08-2273033a1fbc.png">
+
 
 
