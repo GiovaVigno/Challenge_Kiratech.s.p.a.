@@ -24,6 +24,7 @@ Lastly tried to the sample application on *http://localhost:8081*,
 
 ![Try.localhost_8081](screenshots/6.Try.localhost_8081.png)
 I added a like and voted it.
+
 ![Grafana News_add link](screenshots/7.Add_link.png)
 ![Added link and voted](screenshots/8.Voted.png)
 
@@ -110,6 +111,41 @@ afterwards I filled up the **Query editor** with the previous query,
 I renamed the Legend, the label of the graph and saved, in oder to have my first panel.
 
 <img width="956" alt="Setting the Dashboard" src="https://user-images.githubusercontent.com/77804552/130629046-da289edf-365f-4262-bf08-2273033a1fbc.png">
+
+## Eighth, annotate events
+It is often important note you some changes, obviously automatically is much better. In other words I needed to set the annotations to allow me to represent events in my dashboard. I was able to do by clicking into the graph,
+
+<img width="762" alt="Manual Annotation" src="https://user-images.githubusercontent.com/77804552/130633042-fbc9f36a-0566-4b03-98f2-b1f9258186a8.png">
+
+and in description I wrote and then saved.
+
+<img width="769" alt=" Annotation done" src="https://user-images.githubusercontent.com/77804552/130633345-d3d828cf-478d-473c-9796-cb3d36093fe3.png">
+
+However an interesting things is I was able to annotate a time interval (**region annotations**), by pressing Ctrl, then click and drag across the graph.
+
+<img width="806" alt="the Region annotations" src="https://user-images.githubusercontent.com/77804552/130634017-4ce2988d-6d44-45b4-b99f-3fd335bee4f9.png">
+
+Not only, for regularly occurring events this has to do automatically, so I had to use a querying annotations from data sources.
+I make an annotation using the **loki**, I clicked **Dashboard settings** icon,
+
+<img width="940" alt="Annotation with Loki" src="https://user-images.githubusercontent.com/77804552/130635538-559e8cde-db93-4edf-b63d-bba33ddba4aa.png">
+
+then I setted it up (with **Loki**) and entered the query, in the end clicked **Add**.
+
+<img width="694" alt="Annotation using Loki " src="https://user-images.githubusercontent.com/77804552/130636132-8429d9b1-8a90-4caa-9600-dddcd9f5071c.png">
+
+Going back, the log lines returned a new type of annotation (this help you to correlate information from **Prometheus** and **Loki**).
+
+<img width="555" alt="34 Checkquerying annotations" src="https://user-images.githubusercontent.com/77804552/130636533-bfff14f4-4b8d-4cee-9128-f7e4c8e89565.png">
+
+## Set up an alert
+
+Alerts is made in two parts:
+1. _Notification channel_ - How the alert is delivered
+1. _Alert rules_ - When the alert is triggered.
+
+
+
 
 
 
