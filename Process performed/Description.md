@@ -1,3 +1,9 @@
+
+![Presentation](https://user-images.githubusercontent.com/77804552/130754445-ffb03b3b-553f-4a75-a693-3222b6fb5bab.gif)
+
+
+
+
 # Challenge Grafana fundamentals 
 I have been doing this challenge following the instructions provided from: *https://grafana.com/tutorials/grafana-fundamentals*.
 
