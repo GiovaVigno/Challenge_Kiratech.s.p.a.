@@ -195,7 +195,7 @@ then I found my previous alert in the list, and clicked **Pause**.
 
 <img width="800" alt="Pause icon" src="https://user-images.githubusercontent.com/77804552/130660357-f83ee7c5-e6b1-4269-b327-76218230478e.png">
 
-
+That’s it on … for now. To summarize, I covered how to use Grafana to set up a monitoring solution for some sample application.
 
 
 
