@@ -204,5 +204,8 @@ then I found my previous alert in the list, and clicked **Pause**.
 That’s it on … for now. To summarize, I covered how to use Grafana to set up a monitoring solution for some sample application.
 
 
+   ![The end loading](https://user-images.githubusercontent.com/77804552/130759505-56f889ff-b582-4117-8861-53ad56bac34f.gif)
+
+
 
 
