@@ -7,7 +7,7 @@
 # Challenge Grafana fundamentals 
 I have been doing this challenge following the instructions provided from: *https://grafana.com/tutorials/grafana-fundamentals*.
 
-## First, setup
+## :black_medium_small_square: First, setup
   
 I had to setup a sample application, so I started with cloning *github.com/grafana/tutorial-environment* repository,
 
@@ -34,19 +34,19 @@ I added a like and voted it.
 ![Grafana News_add link](screenshots/7.Add_link.png)
 ![Added link and voted](screenshots/8.Voted.png)
 
-## Second, Log in to Grafana
+## :black_medium_small_square: Second, Log in to Grafana
 I checked into docker and browsed to *http://localhost:3000*,
 
 ![Browse to localhost3000](screenshots/9.Host3000.png)
 ![Login to Grafana](screenshots/10.LoginGrafana.png)
 
-consequently I entered inside,
+consequently I entered inside.
 
 ![Welcome to Grafana dashboard](screenshots/11.WelcomeGrafanadashboard.png)
 
-## Third, metrics and data source 
+## :black_medium_small_square: Third, metrics and data source 
 
-I visualized the metrics from Prometheus, however I needed to add it as a data source (into the corfiguration) in Grafana.
+I visualized the metrics from Prometheus, however I needed to add it as a data source (into the configuration) in Grafana.
 
 ![Add Prometheus in the dashboard](screenshots/12.Prometheus.png)
 
@@ -55,8 +55,8 @@ After a few simple steps, I had to fill up the boxs.Then saved and tested.
 ![Filled up Url box](screenshots/13.Url_box.png)
 ![Save and Test](screenshots/14.Save&Test.png)
 
-## Forth, explore metrics 
-I uses Explore to create specific queries to understand the metrics exposed. Anyway in the side bar, I clicked the **Explore** bottom, in the **Query editor** wrote (close the **Metrics** bottom), and changed the _time picker_. 
+## :black_medium_small_square: Forth, explore metrics 
+I used **Explore** to create specific queries to understand the metrics exposed. Anyway in the side bar, I clicked the **Explore** icon, in the **Query editor** wrote (close the **Metrics** icon), and changed the _time picker_. 
 
 ![Explore the Query (tns)](screenshots/15.ExploreQuery(tns).png)
 
@@ -72,20 +72,20 @@ I went back to the *http://localhost:8081/* then generated some traffic, and I c
 
 <img width="875" alt="Click the time picker, and select Last 5 minutes." src="https://user-images.githubusercontent.com/77804552/130475984-d883ee38-9bfd-48f3-9a8d-cfabf6f97725.png">
 
-After that, I tried to change the **group by** with another label like status_code and istance .
+After that, I tried to change the **group by** with another label like status_code and instance .
 
 <img width="849" alt="Try other labels" src="https://user-images.githubusercontent.com/77804552/130477087-8ab0915f-6eb7-4410-99b3-0bfa6c851782.png">
 <img width="889" alt="Try other labels again" src="https://user-images.githubusercontent.com/77804552/130477099-4a7652e6-e649-4a00-94be-e7bd76920f2b.png">
 
-## Fifth, logging data source 
+## :black_medium_small_square: Fifth, logging data source 
 
 I needed to add data source **Loki** to Grafana. Always in the configuration like earlier, but into the url box I filled up with *http://loki:3100/*.
 
 <img width="884" alt="21 Logging(Loki)" src="https://user-images.githubusercontent.com/77804552/130477878-df725636-b65f-4f79-bb20-95205689d2c4.png">
 
-## Sixth, Explore logs
+## :black_medium_small_square: Sixth, Explore logs
 
-In order to explore the logs, I had to use **Loki** date source. Thus In the **Query editor**, I entered,
+In order to explore the logs, I had to use **Loki** data source. Thus In the **Query editor**, I entered the query,
 
 <img width="929" alt="Explore your logs" src="https://user-images.githubusercontent.com/77804552/130478868-73a22400-8051-46fe-89f0-27f1b9d8ecb9.png">
 
@@ -97,7 +97,7 @@ I clicked and dragged the bars to filter the logs by specific occurrences (like 
 
 ![Filter the graph to explore](https://user-images.githubusercontent.com/77804552/130621718-ecab64e1-8b84-4cd1-9848-598041aad1a2.jpg)
 
-For that reason, I generated an error and analyzed it. So I opened the application (*http://localhost:8081* again), and posted a new link **without a URL** (as in beginning but without URL), besides I went back and entered the query,
+For that reason, I generated an error and analyzed it. So I opened the application (*http://localhost:8081* again), and posted a new link **without a URL** (as in beginning but without URL), besides I went back and entered the earlier query plus  **|= "error"** ,
 
 <img width="755" alt="25 Generate an error andCheck " src="https://user-images.githubusercontent.com/77804552/130623637-fce9171b-cbe2-461a-8b5c-26b2d2867e7c.png">
 
@@ -105,12 +105,12 @@ then I clicked on the log line for more information.
 
 <img width="895" alt="Generate an error and Check 2" src="https://user-images.githubusercontent.com/77804552/130623991-76e87591-7b41-4e25-b9fa-cb18d70c94b2.png">
 
-## Seventh, Build a dashboard
+## :black_medium_small_square: Seventh, Build a dashboard
 To build a dashboard which helps me with intuitive queries and metrics, I had to set the dashboard (in the **create** icon),
 
 <img width="793" alt="To Build a dashboard" src="https://user-images.githubusercontent.com/77804552/130625679-ab46a3d6-0b32-4494-bb2c-b8fabac2e127.png">
 
-afterwards I filled up the **Query editor** with the previous query,
+afterwards I filled up the **Query editor** with the query executed primarily,
 
 <img width="948" alt="Enter the previous Query" src="https://user-images.githubusercontent.com/77804552/130628837-ef5364d5-541a-4f95-8f92-f4c8eb779d05.png">
 
@@ -118,7 +118,7 @@ I renamed the Legend, the label of the graph and saved, in order to have my firs
 
 <img width="956" alt="Setting the Dashboard" src="https://user-images.githubusercontent.com/77804552/130629046-da289edf-365f-4262-bf08-2273033a1fbc.png">
 
-## Eighth, annotate events
+## :black_medium_small_square: Eighth, annotate events
 It is often important note you some changes, obviously automatically is much better. In other words I needed to set the annotations to allow me to represent events in my dashboard. I was able to do by clicking into the graph,
 
 <img width="762" alt="Manual Annotation" src="https://user-images.githubusercontent.com/77804552/130633042-fbc9f36a-0566-4b03-98f2-b1f9258186a8.png">
@@ -127,12 +127,12 @@ and in description I wrote and then saved.
 
 <img width="769" alt=" Annotation done" src="https://user-images.githubusercontent.com/77804552/130633345-d3d828cf-478d-473c-9796-cb3d36093fe3.png">
 
-However an interesting things is I was able to annotate a time interval (**region annotations**), by pressing *Ctrl*, then click and drag across the graph.
+However an interesting things is I was able to annotate a time interval (**region annotations**), by pressing *Ctrl*, then clicking and dragging on the chart.
 
 <img width="806" alt="the Region annotations" src="https://user-images.githubusercontent.com/77804552/130634017-4ce2988d-6d44-45b4-b99f-3fd335bee4f9.png">
 
 Not only, for regularly occurring events this has to do automatically, so I had to use a querying annotations from data sources.
-I made an annotation using the **loki**, I clicked **Dashboard settings** icon,
+I made an annotation using **Loki**, I clicked **Dashboard settings** icon,
 
 <img width="940" alt="Annotation with Loki" src="https://user-images.githubusercontent.com/77804552/130635538-559e8cde-db93-4edf-b63d-bba33ddba4aa.png">
 
@@ -144,7 +144,7 @@ Going back, the log lines returned a new type of annotation (this help you to co
 
 <img width="555" alt="Check querying annotations" src="https://user-images.githubusercontent.com/77804552/130636533-bfff14f4-4b8d-4cee-9128-f7e4c8e89565.png">
 
-## Nineth, Set up an alert
+## :black_medium_small_square: Nineth, Set up an alert
 
 Alerts is made in two parts:
 1. _Notification channel_ - How the alert is delivered;
@@ -165,7 +165,7 @@ Subsequently, I configured a notification channel for web hooks to send notifica
 
 <img width="854" alt="Click and Send to Test" src="https://user-images.githubusercontent.com/77804552/130641033-27393745-dca2-4787-966a-e7e8f8929908.png">
 
-After that I browsed back to the request bin, and checked **POST/** entry, so that I saved.
+After that I browsed back to the Request Bin, and checked **POST/** entry, so that I saved.
 
 <img width="953" alt="Check request bin" src="https://user-images.githubusercontent.com/77804552/130641837-d0a0fe37-2ffb-47ee-8ddf-034572493cfc.png">
 
