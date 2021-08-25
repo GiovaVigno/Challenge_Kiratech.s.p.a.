@@ -9,7 +9,7 @@ I have been doing this challenge following the instructions provided from: *http
 
 ## First, setup
   
-I had to setup a sample application, so I started with cloning *github.com/grafana/tutorial-environment* repository,
+I had to setup a sample application, so I lunched with cloning *github.com/grafana/tutorial-environment* repository,
 
 ![Setup](screenshots/1.Setup.png)
 
