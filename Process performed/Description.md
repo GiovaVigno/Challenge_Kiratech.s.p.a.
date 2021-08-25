@@ -20,7 +20,7 @@ I ensured all services are up-and-running also the application (desktop).
 
 ![Docker_desktop](screenshots/5.Docker_desktop.png)
 
-lastly I tried to the sample application on *http://localhost:8081*,
+Lastly I tried to the sample application on *http://localhost:8081*,
 
 ![Try.localhost_8081](screenshots/6.Try.localhost_8081.png)
 I added a like and voted it.
